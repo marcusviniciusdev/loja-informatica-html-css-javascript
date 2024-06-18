@@ -1,0 +1,84 @@
+/*PAGINA LOGIN*/
+.telaGeralSobre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1000px;
+    height: 700px;
+    margin: 10px 200px 30px 200px;
+    border-radius: 10px;
+    padding: 50px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+
+}
+
+.tituloSobre {
+    width: 200px;
+    height: 50px;
+    font-family: noodle;
+    color: aliceblue;
+    font-size: 30px;
+    text-align: center;
+}
+
+
+.telaDeFotos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 1000px;
+    height: 360px;
+    padding-top: 10px;
+    border-top: 2px solid #5fcb89;
+
+
+}
+
+.cardIntegrante {
+    width: 200px;
+    height: 280px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    margin: 20px 20px 20px 20px;
+    background: rgba(0, 0, 0, 0.596);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+
+}
+
+.cardIntegrante img {
+    width: 200px;
+    height: 240px;
+
+}
+
+.descricao {
+    width: 180px;
+    height: 60px;
+    font-family: noodle;
+    color: aliceblue;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+}
+
+.textoSobre {
+    margin: 0;
+    width: 900px;
+    height: 80px;
+    font-family: noodle;
+    font-style: italic;
+    color: aliceblue;
+    font-size: 23px;
+    background: rgba(0, 0, 0, 0.842);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    padding: 20px;
+    border-radius: 20px;
+    text-align: justify;
+
+}

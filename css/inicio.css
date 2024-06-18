@@ -1,0 +1,44 @@
+/*PAGINA LOGIN*/
+.telaInicioGeral {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 100vmax;
+    max-height: 100vmax;
+    margin: 10px 200px 30px 200px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    padding: 20px;
+
+}
+
+.cardInicio1 {
+    display: flex;
+    flex-direction: row;
+    max-width: 100vmax;
+    max-height: 100vmax;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    padding: 10px;
+
+
+
+}
+
+.cardInicio1 img {
+    border-radius: 10px;
+    width: 600px;
+    border: 1px solid rgba(128, 255, 0, 0.414);
+}
+
+.descricao {
+    font-family: noodle;
+    font-size: 27px;
+    text-align: justify;
+    padding: 20px;
+    ;
+}

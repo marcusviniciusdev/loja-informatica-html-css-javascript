@@ -1,0 +1,302 @@
+/*APLICAÇÃO GERAL*/
+* {
+    margin: 0;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    color: aliceblue;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    background: url(/images/razer_colorful_background-wallpaper-1920x1080.jpg);
+
+}
+
+main {
+    margin-top: 10px;
+}
+
+
+/*APLICAÇÃO GERAL*/
+
+/*CABEÇALHO*/
+.barraSuperior {
+    width: 100%;
+    height: 95px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background: url(/images/menu/cabeçalho.png) no-repeat;
+    background-size: cover;
+
+
+}
+
+.logo {
+    margin: 40px 0 0 5px;
+    width: 40px;
+    height: 40px;
+}
+
+.tituloLogo {
+    margin: auto 0 auto 20px;
+    font-size: 50px;
+    color: #5fcb89;
+    font-family: "Matcha";
+}
+
+.busca {
+    display: flex;
+    flex-direction: row;
+    margin: auto 0 auto 20px;
+    width: 350px;
+    height: 30px;
+    background-color: aliceblue;
+    border-radius: 5px 20px 20px 5px;
+    border: 3px solid #5fcb89;
+}
+
+.busca input {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    background-color: transparent;
+    border: none;
+
+}
+
+.busca img {
+    width: 30px;
+    height: 30px;
+
+}
+
+.login {
+    display: flex;
+    flex-direction: row;
+    margin: auto 0 auto 20px;
+}
+
+.login img {
+    width: 30px;
+    height: 30px;
+    padding-left: 4px;
+}
+
+.login span {
+    font-size: 12px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: aliceblue;
+    margin: auto 0 auto 10px;
+}
+
+.login a {
+    color: aliceblue;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+/*CABEÇALHO*/
+
+/*MENU DE NAVEGAÇÃO*/
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    height: 30px;
+    background: rgba(30, 197, 52, 0.082);
+}
+
+.menu a {
+    font-family: noodle;
+    font-size: 20px;
+    color: #f6f6f6;
+    text-decoration: none;
+    display: inline-block;
+    margin: 3px 20px 0 20px;
+    font-weight: 400;
+    position: relative;
+}
+
+.menu a:first-child {
+    margin-left: 0;
+}
+
+.menu a:hover {
+    color: #5fcb89;
+}
+
+.menu a:before {
+    content: '';
+    width: 100%;
+    height: 4px;
+    background-color: #5fcb89;
+    display: block;
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    transition: all 0.2s ease-out;
+    transform: scale(0, 1);
+    transform-origin: center left;
+}
+
+.menu a:hover:before {
+    transform: scale(1, 1);
+}
+
+/*MENU DE NAVEGAÇÃO*/
+
+
+
+/*PAINEL DE CONTATO*/
+.botaoContato {
+    width: 45px;
+    height: 45px;
+    display: block;
+    background-color: #2CCB69;
+    background-image: url('../images/icon-contact-close.svg');
+    background-repeat: no-repeat;
+    position: fixed;
+    bottom: 45px;
+    right: 45px;
+    border-radius: 50%;
+    z-index: 200;
+    transition: all 0.2s ease-out;
+}
+
+.contact-info {
+    width: 250px;
+    height: 190px;
+    position: fixed;
+    bottom: 115px;
+    right: 65px;
+    z-index: 200;
+    display: none;
+    border-radius: 10px;
+}
+
+.contact-info-inner {
+    display: flex;
+    flex-direction: column;
+    padding: 25px 5px 10px 32px;
+}
+
+.contact-info-inner h2 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: normal;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.contact-info-inner p {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    line-height: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.social-links {
+    width: 100%;
+    height: 45px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.social {
+    width: 45px;
+    height: 45px;
+    display: inline-block;
+}
+
+.social>img {
+    width: 20px;
+    height: auto;
+    display: block;
+    margin: 13px auto 0;
+}
+
+.corner {
+    width: 25px;
+    height: px;
+    display: block;
+    float: right;
+    display: relative;
+}
+
+.corner:after {
+    content: '';
+    width: 24px;
+    height: 25px;
+    display: block;
+    position: absolute;
+    bottom: -16px;
+    right: 0;
+    background: transparent url('../images/corner.svg') no-repeat;
+}
+
+/*PAINEL DE CONTATO*/
+
+
+/* CLASSES UTILITARIAS */
+
+@font-face {
+    font-family: Matcha;
+    src: local(Matcha), url(/fonte/cafe_matcha/Cafe\ Matcha.ttf);
+}
+
+@font-face {
+    font-family: noodle;
+    src: local(noodle), url(/fonte/bignoodletitling/big_noodle_titling.ttf);
+}
+
+
+.text-green {
+    color: #2CCB69;
+}
+
+.text-dark {
+    color: #4D4C4C;
+}
+
+.text-light {
+    color: #bcbcbc;
+}
+
+.text-black {
+    color: #000;
+}
+
+.bg-green {
+    background-color: #2CCB69;
+}
+
+.bg-dark {
+    background-color: #4D4C4C;
+}
+
+.bg-light {
+    background-color: #bcbcbc;
+}
+
+.bg-black {
+    background-color: #000;
+}
+
+
+/* CLASSES COMPORTAMENTO */
+
+.is-open {
+    display: block;
+}
+
+.change-icon {
+    background-position-y: -45px;
+}

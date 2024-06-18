@@ -1,0 +1,250 @@
+.menuDepartamento {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    height: 30px;
+
+}
+
+.menuDepartamento a {
+    font-family: noodle;
+    font-size: 20px;
+    color: #f6f6f6;
+    text-decoration: none;
+    display: inline-block;
+    margin: 3px 20px 0 20px;
+    font-weight: 400;
+    position: relative;
+
+}
+
+
+/*BOTÃO PROCESSADORES*/
+.btProcessadores {
+    font-family: noodle;
+    font-size: 20px;
+    color: #f6f6f6;
+    text-decoration: none;
+    display: inline-block;
+    margin: 3px 20px 0 20px;
+    font-weight: 400;
+    position: relative;
+    background: none;
+    border: 0ex;
+}
+
+.btProcessadores:first-child {
+    margin-left: 0;
+}
+
+.btProcessadores:hover {
+    color: #d12929;
+}
+
+.btProcessadores:before {
+    content: '';
+    width: 100%;
+    height: 4px;
+    background-color: #d12929;
+    display: block;
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    transition: all 0.2s ease-out;
+    transform: scale(0, 1);
+    transform-origin: center left;
+}
+
+.btProcessadores:hover:before {
+    transform: scale(1, 1);
+}
+
+/*BOTÃO MEMÓRIA*/
+.btMemorias {
+    font-family: noodle;
+    font-size: 20px;
+    color: #f6f6f6;
+    text-decoration: none;
+    display: inline-block;
+    margin: 3px 20px 0 20px;
+    font-weight: 400;
+    position: relative;
+    background: none;
+    border: 0ex;
+}
+
+.btMemorias:first-child {
+    margin-left: 0;
+}
+
+.btMemorias:hover {
+    color: #fbff00;
+}
+
+.btMemorias:before {
+    content: '';
+    width: 100%;
+    height: 4px;
+    background-color: #fbff00;
+    display: block;
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    transition: all 0.2s ease-out;
+    transform: scale(0, 1);
+    transform-origin: center left;
+}
+
+.btMemorias:hover:before {
+    transform: scale(1, 1);
+}
+
+/*PLACA DE VIDEO*/
+.btPlacaDeVideo {
+    font-family: noodle;
+    font-size: 20px;
+    color: #f6f6f6;
+    text-decoration: none;
+    display: inline-block;
+    margin: 3px 20px 0 20px;
+    font-weight: 400;
+    position: relative;
+    background: none;
+    border: 0ex;
+
+}
+
+.btPlacaDeVideo:first-child {
+    margin-left: 0;
+}
+
+.btPlacaDeVideo:hover {
+    color: #0084ff;
+}
+
+.btPlacaDeVideo:before {
+    content: '';
+    width: 100%;
+    height: 4px;
+    background-color: #0084ff;
+    display: block;
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    transition: all 0.2s ease-out;
+    transform: scale(0, 1);
+    transform-origin: center left;
+}
+
+.btPlacaDeVideo:hover:before {
+    transform: scale(1, 1);
+}
+
+/*BOTÃO PLACA MÃE*/
+.btPlacaMae {
+    font-family: noodle;
+    font-size: 20px;
+    color: #f6f6f6;
+    text-decoration: none;
+    display: inline-block;
+    margin: 3px 20px 0 20px;
+    font-weight: 400;
+    position: relative;
+    background: none;
+    border: 0ex;
+
+
+}
+
+.btPlacaMae:first-child {
+    margin-left: 0;
+}
+
+.btPlacaMae:hover {
+    color: #cc00ff;
+}
+
+.btPlacaMae:before {
+    content: '';
+    width: 100%;
+    height: 4px;
+    background-color: #cc00ff;
+    display: block;
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    transition: all 0.2s ease-out;
+    transform: scale(0, 1);
+    transform-origin: center left;
+}
+
+.btPlacaMae:hover:before {
+    transform: scale(1, 1);
+}
+
+
+/*PAGINA PRODUTOS*/
+
+.telaGeralProdutos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 1450px;
+    height: 1000px;
+    margin: 10px 200px 30px 200px;
+    border-radius: 10px;
+    padding: 50px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+
+.cardProduto {
+    width: 250px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    margin: 20px 20px 20px 20px;
+    background: rgba(0, 0, 0, 0.596);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+
+}
+
+.cardProduto img {
+    width: 250px;
+    height: 200px;
+    border-radius: 10px 10px 0 0;
+
+}
+
+.descricao {
+    width: 230px;
+    height: 60px;
+    font-family: noodle;
+    color: aliceblue;
+    font-size: 19px;
+    text-align: justify;
+    padding: 10px;
+}
+
+.valor {
+    font-family: noodle;
+    color: aliceblue;
+    font-size: 27px;
+    margin-top: 20px;
+    padding-left: 10px;
+}
+
+.cardProduto button {
+    width: 150px;
+    height: 37px;
+    margin: 15px auto 0 auto;
+    border-radius: 5px;
+    background-color: chartreuse;
+    font-family: noodle;
+    font-size: 25px;
+
+}

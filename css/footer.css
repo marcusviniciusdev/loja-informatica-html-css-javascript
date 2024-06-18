@@ -1,0 +1,150 @@
+.classFooter {
+    width: 100%;
+    height: 300px;
+    background: rgba(0, 0, 0, 0.842);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+
+}
+
+.classFooter a{
+    font-family: noodle;
+    color: aliceblue;
+    font-size: 23px;
+}
+
+.classFooter span{
+    font-family: noodle;
+    color: aliceblue;
+    font-size: 23px;
+
+}
+
+/* div Departamento*/
+.d3 {
+    font-family: noodle;
+    font-size: 24px;
+    color: #37a759;
+}
+
+/* div novidades */
+.d4 {
+    font-family: noodle;
+    font-size: 24px;
+    color: #37a759;
+
+}
+
+/* div atendimento */
+.d5 {
+    font-family: noodle;
+    font-size: 24px;
+    color: #37a759;
+}
+
+/* div  intitucional */
+.d5 {
+    font-family: noodle;
+    font-size: 24px;
+    color: #37a759;
+}
+
+/* div MINHA CONTA*/
+.d6 {
+    font-family: noodle;
+    font-size: 24px;
+    color: #37a759;
+}
+
+/* div atendimento */
+.aten {
+
+    font-family: noodle;
+    font-size: 20px;
+    color: #37a759;
+}
+
+.h1 {
+    margin: auto 0 auto 50px;
+    font-size: 50px;
+    color: #5fcb89;
+    font-family: "Matcha";
+}
+
+.menu2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+  
+}
+
+.form1 {
+    display: flex;
+    flex-direction: row;
+    margin-left: 50px;
+    width: 350px;
+    height: 30px;  
+
+}
+
+
+
+
+
+.but1 {
+    background-color: green;
+    border-radius: 5px 20px 20px 5px;
+    border: 3px solid #5fcb89;
+    margin-left: 10px;
+}
+
+.menu1 {
+    background-color: black;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-right: 150px ;
+}
+
+.menu1 h2{
+  font-family: noodle;
+  color: aliceblue;
+  margin-left: 30px;
+}
+
+/*nome no cadastro*/
+.inptNome {
+
+    border: 3px solid #5fcb89;
+    background-color: aliceblue;
+    border-radius: 5px 20px 20px 5px;
+}
+
+/*email no cadastro*/
+.inptEmail {
+    margin-left: 20px;
+    border: 3px solid #5fcb89;
+    background-color: aliceblue;
+    border-radius: 5px 20px 20px 5px;
+
+}
+
+
+
+.produtos {
+    display: flex;
+    flex-direction: column;
+  
+}
+
+.Novidades {
+    display: flex;
+    flex-direction: column;
+   
+}
+.bloco{
+    margin: 10px 10px 10px 10px;
+
+}
